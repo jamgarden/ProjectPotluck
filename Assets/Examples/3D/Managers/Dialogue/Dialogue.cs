@@ -9,9 +9,14 @@ public class Dialogue : ScriptableObject
     public class Sentence
     {
         public string name;
+        public enum Expression {Neutral , Happy, Angry, Sad };
+        public Expression expression;
+        public enum BodyLanguage {Worry, Jumpy, HandShake, Idle};
+        public BodyLanguage bodyLanguage;
+
         [TextArea]
         public string sentence;
-        public AudioClip clip;
+        public AudioClip audioClip;
     }
 
     public Sentence []Sentences;

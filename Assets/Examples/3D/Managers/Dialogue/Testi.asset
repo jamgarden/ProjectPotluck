@@ -14,14 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sentences:
   - name: Steve
+    expression: 0
+    bodyLanguage: 1
     sentence: Welcome to Chalupagong!
-    clip: {fileID: 8300000, guid: d6d7273a1d9f33c44921d5ba6405135d, type: 3}
+    audioClip: {fileID: 8300000, guid: d6d7273a1d9f33c44921d5ba6405135d, type: 3}
   - name: You
+    expression: 0
+    bodyLanguage: 3
     sentence: Hey can I get a burrito with everything on it?
-    clip: {fileID: 8300000, guid: ccb41126520e4674fbd498893c7abf46, type: 3}
+    audioClip: {fileID: 8300000, guid: ccb41126520e4674fbd498893c7abf46, type: 3}
   - name: Steve
+    expression: 2
+    bodyLanguage: 2
     sentence: SQUACK!
-    clip: {fileID: 8300000, guid: 7143c4173e10c5642bde6f26a02e7f32, type: 3}
+    audioClip: {fileID: 8300000, guid: 7143c4173e10c5642bde6f26a02e7f32, type: 3}
   - name: Steve
+    expression: 3
+    bodyLanguage: 0
     sentence: You're gonna feel that later buddy.
-    clip: {fileID: 8300000, guid: b75e43a46c0ad4546a9c9295aad73a45, type: 3}
+    audioClip: {fileID: 8300000, guid: b75e43a46c0ad4546a9c9295aad73a45, type: 3}
