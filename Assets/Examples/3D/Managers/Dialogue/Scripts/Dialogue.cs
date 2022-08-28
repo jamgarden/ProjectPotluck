@@ -17,6 +17,9 @@ public class Dialogue : ScriptableObject
         [TextArea]
         public string sentence;
         public AudioClip audioClip;
+
+        [Space(5)]
+        public Vector3 cameraPosition;
     }
 
     public Sentence []Sentences;
